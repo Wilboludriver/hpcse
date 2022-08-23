@@ -1,0 +1,10 @@
+*.dat
+*.o
+out
+*.swp
+*.swo
+*.png
+*.gif
+lsf*
+pse2d
+output

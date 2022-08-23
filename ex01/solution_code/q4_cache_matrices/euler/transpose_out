@@ -1,0 +1,88 @@
+Working with a matrix of size 512
+Start transposing (non optimized).
+Done, min=   0.0530, avg=   0.0546, max=   0.0568, batch=64, Ns=10
+Start transposing (optimized, block size=2).
+Done, min=   0.0294, avg=   0.0306, max=   0.0317, batch=64, Ns=10
+Start transposing (optimized, block size=4).
+Done, min=   0.0257, avg=   0.0271, max=   0.0306, batch=64, Ns=10
+Start transposing (optimized, block size=8).
+Done, min=   0.0269, avg=   0.0281, max=   0.0299, batch=64, Ns=10
+Start transposing (optimized, block size=16).
+Done, min=   0.0216, avg=   0.0229, max=   0.0252, batch=64, Ns=10
+Start transposing (optimized, block size=32).
+Done, min=   0.0237, avg=   0.0244, max=   0.0252, batch=64, Ns=10
+Start transposing (optimized, block size=64).
+Done, min=   0.0261, avg=   0.0279, max=   0.0308, batch=64, Ns=10
+Start transposing (optimized, block size=128).
+Done, min=   0.0265, avg=   0.0274, max=   0.0287, batch=64, Ns=10
+Start transposing (optimized, block size=256).
+Done, min=   0.0316, avg=   0.0326, max=   0.0345, batch=64, Ns=10
+Start transposing (optimized, block size=512).
+Done, min=   0.0528, avg=   0.0544, max=   0.0553, batch=64, Ns=10
+==================================================
+Working with a matrix of size 1024
+Start transposing (non optimized).
+Done, min=   0.0548, avg=   0.0575, max=   0.0635, batch=16, Ns=10
+Start transposing (optimized, block size=2).
+Done, min=   0.0398, avg=   0.0404, max=   0.0408, batch=16, Ns=10
+Start transposing (optimized, block size=4).
+Done, min=   0.0329, avg=   0.0349, max=   0.0365, batch=16, Ns=10
+Start transposing (optimized, block size=8).
+Done, min=   0.0326, avg=   0.0338, max=   0.0349, batch=16, Ns=10
+Start transposing (optimized, block size=16).
+Done, min=   0.0263, avg=   0.0302, max=   0.0391, batch=16, Ns=10
+Start transposing (optimized, block size=32).
+Done, min=   0.0269, avg=   0.0282, max=   0.0298, batch=16, Ns=10
+Start transposing (optimized, block size=64).
+Done, min=   0.0280, avg=   0.0293, max=   0.0308, batch=16, Ns=10
+Start transposing (optimized, block size=128).
+Done, min=   0.0280, avg=   0.0291, max=   0.0300, batch=16, Ns=10
+Start transposing (optimized, block size=256).
+Done, min=   0.0335, avg=   0.0341, max=   0.0346, batch=16, Ns=10
+Start transposing (optimized, block size=512).
+Done, min=   0.0533, avg=   0.0557, max=   0.0581, batch=16, Ns=10
+==================================================
+Working with a matrix of size 2048
+Start transposing (non optimized).
+Done, min=   0.1366, avg=   0.1420, max=   0.1668, batch=4, Ns=10
+Start transposing (optimized, block size=2).
+Done, min=   0.0984, avg=   0.1001, max=   0.1017, batch=4, Ns=10
+Start transposing (optimized, block size=4).
+Done, min=   0.0838, avg=   0.0859, max=   0.0883, batch=4, Ns=10
+Start transposing (optimized, block size=8).
+Done, min=   0.0833, avg=   0.0867, max=   0.1034, batch=4, Ns=10
+Start transposing (optimized, block size=16).
+Done, min=   0.0669, avg=   0.0676, max=   0.0684, batch=4, Ns=10
+Start transposing (optimized, block size=32).
+Done, min=   0.0574, avg=   0.0578, max=   0.0584, batch=4, Ns=10
+Start transposing (optimized, block size=64).
+Done, min=   0.0513, avg=   0.0543, max=   0.0707, batch=4, Ns=10
+Start transposing (optimized, block size=128).
+Done, min=   0.0514, avg=   0.0599, max=   0.0774, batch=4, Ns=10
+Start transposing (optimized, block size=256).
+Done, min=   0.0662, avg=   0.0726, max=   0.0927, batch=4, Ns=10
+Start transposing (optimized, block size=512).
+Done, min=   0.0910, avg=   0.0945, max=   0.0975, batch=4, Ns=10
+==================================================
+Working with a matrix of size 4096
+Start transposing (non optimized).
+Done, min=   0.1734, avg=   0.1816, max=   0.2270, batch=1, Ns=10
+Start transposing (optimized, block size=2).
+Done, min=   0.1308, avg=   0.1591, max=   0.2146, batch=1, Ns=10
+Start transposing (optimized, block size=4).
+Done, min=   0.1296, avg=   0.1323, max=   0.1397, batch=1, Ns=10
+Start transposing (optimized, block size=8).
+Done, min=   0.1317, avg=   0.1415, max=   0.2081, batch=1, Ns=10
+Start transposing (optimized, block size=16).
+Done, min=   0.0927, avg=   0.0971, max=   0.1031, batch=1, Ns=10
+Start transposing (optimized, block size=32).
+Done, min=   0.0670, avg=   0.0673, max=   0.0675, batch=1, Ns=10
+Start transposing (optimized, block size=64).
+Done, min=   0.0734, avg=   0.0766, max=   0.0791, batch=1, Ns=10
+Start transposing (optimized, block size=128).
+Done, min=   0.0749, avg=   0.0786, max=   0.0813, batch=1, Ns=10
+Start transposing (optimized, block size=256).
+Done, min=   0.0776, avg=   0.0853, max=   0.1300, batch=1, Ns=10
+Start transposing (optimized, block size=512).
+Done, min=   0.1122, avg=   0.1219, max=   0.1306, batch=1, Ns=10
+==================================================

@@ -1,0 +1,8 @@
+*.dat
+*.o
+out
+*.swp
+*.swo
+*.png
+lsf*
+diffusion

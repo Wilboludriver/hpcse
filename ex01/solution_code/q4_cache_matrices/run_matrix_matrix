@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -eu
+
+name=matrix_matrix
+dir=${1:-euler}
+shift 1
+
+mkdir -p "$dir"
+./get_sysinfo > "$dir/sysinfo"
+make -B $name "$@"
+./$name 2>&1 | tee "$dir/${name}_out"
+mv -v ${name}_times.txt "$dir"

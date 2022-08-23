@@ -1,0 +1,129 @@
+Working with matrices of size 512
+---------------------------------------------
+Start C=A*B (non optimized).
+Done in total    3.7453s  --  average    0.3745s
+---------------------------------------------
+Start C=A*B (optimized, row major, block size=2).
+Done in total    1.8333s  --  average    0.1833s
+Start C=A*B (optimized, row major, block size=4).
+Done in total    1.2075s  --  average    0.1208s
+Start C=A*B (optimized, row major, block size=8).
+Done in total    0.9819s  --  average    0.0982s
+Start C=A*B (optimized, row major, block size=16).
+Done in total    1.0140s  --  average    0.1014s
+Start C=A*B (optimized, row major, block size=32).
+Done in total    1.3138s  --  average    0.1314s
+Start C=A*B (optimized, row major, block size=64).
+Done in total    1.6321s  --  average    0.1632s
+Start C=A*B (optimized, row major, block size=128).
+Done in total    1.6705s  --  average    0.1670s
+Start C=A*B (optimized, row major, block size=256).
+Done in total    1.8961s  --  average    0.1896s
+Start C=A*B (optimized, row major, block size=512).
+Done in total    2.8764s  --  average    0.2876s
+---------------------------------------------
+Start C=A*B (optimized, column major, block size=2).
+Done in total    3.2246s  --  average    0.3225s
+Start C=A*B (optimized, column major, block size=4).
+Done in total    1.5849s  --  average    0.1585s
+Start C=A*B (optimized, column major, block size=8).
+Done in total    1.1731s  --  average    0.1173s
+Start C=A*B (optimized, column major, block size=16).
+Done in total    1.0447s  --  average    0.1045s
+Start C=A*B (optimized, column major, block size=32).
+Done in total    1.0934s  --  average    0.1093s
+Start C=A*B (optimized, column major, block size=64).
+Done in total    1.1588s  --  average    0.1159s
+Start C=A*B (optimized, column major, block size=128).
+Done in total    1.3526s  --  average    0.1353s
+Start C=A*B (optimized, column major, block size=256).
+Done in total    1.4409s  --  average    0.1441s
+Start C=A*B (optimized, column major, block size=512).
+Done in total    1.4326s  --  average    0.1433s
+==================================================
+Working with matrices of size 1024
+---------------------------------------------
+Start C=A*B (non optimized).
+Done in total   15.1021s  --  average    3.0204s
+---------------------------------------------
+Start C=A*B (optimized, row major, block size=2).
+Done in total    7.3461s  --  average    1.4692s
+Start C=A*B (optimized, row major, block size=4).
+Done in total    4.8709s  --  average    0.9742s
+Start C=A*B (optimized, row major, block size=8).
+Done in total    3.9281s  --  average    0.7856s
+Start C=A*B (optimized, row major, block size=16).
+Done in total    4.0426s  --  average    0.8085s
+Start C=A*B (optimized, row major, block size=32).
+Done in total    5.3566s  --  average    1.0713s
+Start C=A*B (optimized, row major, block size=64).
+Done in total    6.5777s  --  average    1.3155s
+Start C=A*B (optimized, row major, block size=128).
+Done in total    6.6331s  --  average    1.3266s
+Start C=A*B (optimized, row major, block size=256).
+Done in total    7.8775s  --  average    1.5755s
+Start C=A*B (optimized, row major, block size=512).
+Done in total   11.5337s  --  average    2.3067s
+---------------------------------------------
+Start C=A*B (optimized, column major, block size=2).
+Done in total   13.0109s  --  average    2.6022s
+Start C=A*B (optimized, column major, block size=4).
+Done in total    6.3617s  --  average    1.2723s
+Start C=A*B (optimized, column major, block size=8).
+Done in total    4.6921s  --  average    0.9384s
+Start C=A*B (optimized, column major, block size=16).
+Done in total    4.1643s  --  average    0.8329s
+Start C=A*B (optimized, column major, block size=32).
+Done in total    4.4015s  --  average    0.8803s
+Start C=A*B (optimized, column major, block size=64).
+Done in total    4.7676s  --  average    0.9535s
+Start C=A*B (optimized, column major, block size=128).
+Done in total    5.4524s  --  average    1.0905s
+Start C=A*B (optimized, column major, block size=256).
+Done in total    5.8478s  --  average    1.1696s
+Start C=A*B (optimized, column major, block size=512).
+Done in total    5.9977s  --  average    1.1995s
+==================================================
+Working with matrices of size 2048
+---------------------------------------------
+Start C=A*B (non optimized).
+Done in total   43.7583s  --  average   43.7583s
+---------------------------------------------
+Start C=A*B (optimized, row major, block size=2).
+Done in total   12.2466s  --  average   12.2466s
+Start C=A*B (optimized, row major, block size=4).
+Done in total    8.1978s  --  average    8.1978s
+Start C=A*B (optimized, row major, block size=8).
+Done in total    9.5019s  --  average    9.5019s
+Start C=A*B (optimized, row major, block size=16).
+Done in total   15.2926s  --  average   15.2926s
+Start C=A*B (optimized, row major, block size=32).
+Done in total   17.7213s  --  average   17.7213s
+Start C=A*B (optimized, row major, block size=64).
+Done in total   18.4741s  --  average   18.4741s
+Start C=A*B (optimized, row major, block size=128).
+Done in total   18.9039s  --  average   18.9039s
+Start C=A*B (optimized, row major, block size=256).
+Done in total   21.7641s  --  average   21.7641s
+Start C=A*B (optimized, row major, block size=512).
+Done in total   23.8370s  --  average   23.8370s
+---------------------------------------------
+Start C=A*B (optimized, column major, block size=2).
+Done in total   28.2951s  --  average   28.2951s
+Start C=A*B (optimized, column major, block size=4).
+Done in total   11.9285s  --  average   11.9285s
+Start C=A*B (optimized, column major, block size=8).
+Done in total    7.9157s  --  average    7.9157s
+Start C=A*B (optimized, column major, block size=16).
+Done in total    6.8438s  --  average    6.8438s
+Start C=A*B (optimized, column major, block size=32).
+Done in total    7.3073s  --  average    7.3073s
+Start C=A*B (optimized, column major, block size=64).
+Done in total    7.5505s  --  average    7.5505s
+Start C=A*B (optimized, column major, block size=128).
+Done in total    8.7939s  --  average    8.7939s
+Start C=A*B (optimized, column major, block size=256).
+Done in total    9.3297s  --  average    9.3297s
+Start C=A*B (optimized, column major, block size=512).
+Done in total    9.5773s  --  average    9.5773s
+==================================================

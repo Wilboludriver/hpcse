@@ -1,0 +1,149 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.2298057,0.298717966,0.753683153}
+\definecolor{color1}{rgb}{0.705673158,0.01555616,0.150232812}
+
+\begin{axis}[
+legend cell align={left},
+legend entries={{Ideal},{$\bm{a}$ small},{$\bm{a}$ large}},
+legend style={at={(0.03,0.97)}, anchor=north west, draw=white!80.0!black},
+tick align=outside,
+tick pos=left,
+width=1.0\textwidth,
+x grid style={white!69.01960784313725!black},
+xlabel={Number of Threads},
+xmajorgrids,
+xmin=-0.15, xmax=25.15,
+xminorgrids,
+y grid style={white!69.01960784313725!black},
+ylabel={Speedup},
+ymajorgrids,
+ymin=-0.315342727882012, ymax=50.3007306060896,
+yminorgrids
+]
+\addlegendimage{no markers, black}
+\addlegendimage{no markers, color0}
+\addlegendimage{no markers, color1}
+\path [draw=color0, semithick] (axis cs:1,1.98538787820761)
+--(axis cs:1,2.02755812179239);
+
+\path [draw=color0, semithick] (axis cs:2,3.8949952588398)
+--(axis cs:2,4.1239667411602);
+
+\path [draw=color0, semithick] (axis cs:4,7.8735304850899)
+--(axis cs:4,8.1732435149101);
+
+\path [draw=color0, semithick] (axis cs:8,14.0244121714995)
+--(axis cs:8,15.2744678285005);
+
+\path [draw=color0, semithick] (axis cs:12,20.806233817644)
+--(axis cs:12,22.384926182356);
+
+\path [draw=color0, semithick] (axis cs:16,26.7776341451107)
+--(axis cs:16,29.2626058548893);
+
+\path [draw=color0, semithick] (axis cs:20,32.1450986256066)
+--(axis cs:20,34.3447613743934);
+
+\path [draw=color0, semithick] (axis cs:24,37.3675725969754)
+--(axis cs:24,40.1518474030246);
+
+\path [draw=color1, semithick] (axis cs:1,1.98572932494686)
+--(axis cs:1,2.02796667505314);
+
+\path [draw=color1, semithick] (axis cs:2,3.62564691366888)
+--(axis cs:2,4.62738308633112);
+
+\path [draw=color1, semithick] (axis cs:4,5.5703200882377)
+--(axis cs:4,6.5517599117623);
+
+\path [draw=color1, semithick] (axis cs:8,7.68901168570684)
+--(axis cs:8,8.32840231429316);
+
+\path [draw=color1, semithick] (axis cs:12,7.73776438780676)
+--(axis cs:12,8.51017961219323);
+
+\path [draw=color1, semithick] (axis cs:16,12.7579469301646)
+--(axis cs:16,13.6112530698354);
+
+\path [draw=color1, semithick] (axis cs:20,11.2262273475998)
+--(axis cs:20,18.1001926524002);
+
+\path [draw=color1, semithick] (axis cs:24,13.7156648940422)
+--(axis cs:24,15.0829551059578);
+
+\addplot [semithick, color0, mark=-, mark size=3, mark options={solid}, only marks, forget plot]
+table [row sep=\\]{%
+1	1.98538787820761 \\
+2	3.8949952588398 \\
+4	7.8735304850899 \\
+8	14.0244121714995 \\
+12	20.806233817644 \\
+16	26.7776341451107 \\
+20	32.1450986256066 \\
+24	37.3675725969754 \\
+};
+\addplot [semithick, color0, mark=-, mark size=3, mark options={solid}, only marks, forget plot]
+table [row sep=\\]{%
+1	2.02755812179239 \\
+2	4.1239667411602 \\
+4	8.1732435149101 \\
+8	15.2744678285005 \\
+12	22.384926182356 \\
+16	29.2626058548893 \\
+20	34.3447613743934 \\
+24	40.1518474030246 \\
+};
+\addplot [semithick, color1, mark=-, mark size=3, mark options={solid}, only marks, forget plot]
+table [row sep=\\]{%
+1	1.98572932494686 \\
+2	3.62564691366888 \\
+4	5.5703200882377 \\
+8	7.68901168570684 \\
+12	7.73776438780676 \\
+16	12.7579469301646 \\
+20	11.2262273475998 \\
+24	13.7156648940422 \\
+};
+\addplot [semithick, color1, mark=-, mark size=3, mark options={solid}, only marks, forget plot]
+table [row sep=\\]{%
+1	2.02796667505314 \\
+2	4.62738308633112 \\
+4	6.5517599117623 \\
+8	8.32840231429316 \\
+12	8.51017961219323 \\
+16	13.6112530698354 \\
+20	18.1001926524002 \\
+24	15.0829551059578 \\
+};
+\addplot [semithick, black, dashed]
+table [row sep=\\]{%
+1	2 \\
+24	48 \\
+};
+\addplot [semithick, color0, mark=*, mark size=2, mark options={solid}, forget plot]
+table [row sep=\\]{%
+1	2.006473 \\
+2	4.009481 \\
+4	8.023387 \\
+8	14.64944 \\
+12	21.59558 \\
+16	28.02012 \\
+20	33.24493 \\
+24	38.75971 \\
+};
+\addplot [semithick, color1, mark=square*, mark size=2, mark options={solid}, forget plot]
+table [row sep=\\]{%
+1	2.006848 \\
+2	4.126515 \\
+4	6.06104 \\
+8	8.008707 \\
+12	8.123972 \\
+16	13.1846 \\
+20	14.66321 \\
+24	14.39931 \\
+};
+\end{axis}
+
+\end{tikzpicture}
